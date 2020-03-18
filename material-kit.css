@@ -16829,6 +16829,18 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
   align-items: center;
 }
 
+.page-header {
+  background-image: url('images/sp-bg.jpg');
+  filter: blur(2px);
+  transform: scale(1.05);
+}
+
+@media (max-width: 992px) {
+  .page-header {
+  filter: blur(0px);
+  }
+}
+
 .page-header .page-header-image {
   position: absolute;
   background-size: cover;
@@ -18277,7 +18289,7 @@ footer .pull-center {
 
 .profile-page .page-header {
   height: 380px;
-  background-position: top center;
+  background-position: center;
 }
 
 .profile-page .profile {
