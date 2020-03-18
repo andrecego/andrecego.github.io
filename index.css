@@ -26,3 +26,20 @@
   height: 225px;
   object-fit: cover;
 }
+
+.contact{
+  vertical-align: text-bottom;
+  font-size: large;
+}
+
+.work {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.work h3{
+  font-weight: 700;
+}
+
+.work p{
+  color: rgb(153, 153, 153);
+}
