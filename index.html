@@ -1,146 +1,154 @@
-<html>
-  <head>
-    <link rel="stylesheet" media="all" href="/index.css" data-turbolinks-track="reload">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="/packs/js/application-bbe9c4a129ab949e0636.js" data-turbolinks-track="reload"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </head>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 
-  <body>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+    <link rel="stylesheet" href="material-kit.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="profile-page">
     
+    <div class="page-header header-filter" data-parallax="true" style="background-image:url('http://wallpapere.org/wp-content/uploads/2012/02/black-and-white-city-night.png');"></div>
+    <div class="main main-raised col-md-8 mx-auto mb-5">
+		<div class="profile-content">
+            <div class="container">
+                <div class="row">
+	                <div class="col-md-6 ml-auto mr-auto">
+        	           <div class="profile">
+	                        <div class="avatar">
+	                            <img src="images/profile.png" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+	                        </div>
+	                        <div class="name">
+                            <h3 class="title">Andre Cesar Gomes</h3>
+                            <h6>Desenvolvedor Web</h6>
+                              <a href="https://github.com/andrecego" class="btn btn-just-icon btn-link btn-dribbble"><i class="fa fa fa-github-alt"></i></a>
+                              <a href="https://www.linkedin.com/in/andrecego/" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-linkedin"></i></a>
+	                        </div>
+	                    </div>
+    	            </div>
+                </div>
+                <div class="description text-center">
+                    <p>Engenheiro químico formado pela FEI, e desenvolvedor web formado pela CampusCode. Conhecimento em Frameworks MVC, no momento estou focado em Ruby on Rails.
+                      Trabalho com metodologias ágeis (XP, Scrum, Kanban) e gosto de desenvolver em um ambiente mais cooperativo. </p>
+                </div>
+				<div class="row">
+					<div class="col-12 mx-auto">
+            <div class="profile-tabs">
+              <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">
 
+                <li class="nav-item">
+                    <a class="nav-link active" href="#studio" role="tab" data-toggle="tab">
+                      <i class="material-icons">check_circle</i>
+                      Habilidades
+                    </a>
+                </li>
 
-<nav class="navbar navbar-expand-md navbar-black navbar-container text-green">
-  <div class="container">
-    <a class="navbar-brand" href="/">DevHunter</a>
-    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavId">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          
-        </li>
-        <li class="nav-item"> link </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>Links</li>
-      </ul>
-    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#works" role="tab" data-toggle="tab">
+                      <i class="material-icons">view_compact</i>
+                        Projetos
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#favorite" role="tab" data-toggle="tab">
+                      <i class="material-icons">contact_mail</i>
+                        Contato
+                    </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+          <div class="tab-content tab-space">
+            <div class="tab-pane active text-center gallery" id="studio">
+          <div class="row col-lg-8 mx-auto">
+
+              <div class="language col-md-4 col-6 mb-5">
+                <div class="language-image mx-auto">
+                  <img src="images/ruby.png" class="rounded" alt="Ruby" title="Ruby">
+                </div>
+              </div>
+
+              <div class="language col-md-4 col-6 mb-5">
+                <div class="language-image mx-auto">
+                  <img src="images/rails.png" class="rounded" alt="Ruby on Rails" title="Ruby on Rails">
+                </div>
+              </div>
+
+              <div class="language col-md-4 col-6 mb-5">
+                <div class="language-image mx-auto">
+                  <img src="images/rspec.png" class="rounded" alt="RSpec" title="RSpec">
+                </div>
+              </div>
+
+              <div class="language col-md-3 col-6 mb-5">
+                <div class="language-image mx-auto">
+                  <img src="images/html.png" class="rounded" alt="HTML 5" title="HTML 5">
+                </div>
+              </div>
+
+              <div class="language col-md-3 col-6 mb-5">
+                <div class="language-image mx-auto">
+                  <img src="images/css.png" class="rounded" alt="CSS 3" title="CSS 3">
+                </div>
+              </div>
+
+              <div class="language col-md-3 col-6 mb-5">
+                <div class="language-image mx-auto">
+                  <img src="images/js.png" class="rounded" alt="JavaScript" title="JavaScript">
+                </div>
+              </div>
+
+              <div class="language col-md-3 col-6 mb-5">
+                <div class="language-image mx-auto">
+                  <img src="images/bootstrap.png" class="rounded" alt="Bootstrap 4" title="Bootstrap 4">
+                </div>
+              </div>
+
+  				</div>
+  			</div>
+            <div class="tab-pane text-center gallery" id="works">
+      			<div class="row">
+      				<div class="col-md-3 ml-auto">
+                      <img src="https://images.unsplash.com/photo-1524498250077-390f9e378fc0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=83079913579babb9d2c94a5941b2e69d&auto=format&fit=crop&w=751&q=80" class="rounded">
+  					  <img src="https://images.unsplash.com/photo-1506667527953-22eca67dd919?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6326214b7ce18d74dde5e88db4a12dd5&auto=format&fit=crop&w=750&q=80" class="rounded">
+  					  <img src="https://images.unsplash.com/photo-1505784045224-1247b2b29cf3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ec2bdc92a9687b6af5089b335691830e&auto=format&fit=crop&w=750&q=80" class="rounded">  					</div>
+      				<div class="col-md-3 mr-auto">
+                      <img src="https://images.unsplash.com/photo-1504346466600-714572c4b726?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6754ded479383b7e3144de310fa88277&auto=format&fit=crop&w=750&q=80" class="rounded">
+                      <img src="https://images.unsplash.com/photo-1494028698538-2cd52a400b17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=83bf0e71786922a80c420c17b664a1f5&auto=format&fit=crop&w=334&q=80" class="rounded">
+      				</div>
+      			</div>
+  			</div>
+            <div class="tab-pane text-center gallery" id="favorite">
+      			<div class="row">
+      				<div class="col-md-3 ml-auto">
+      				  <img src="https://images.unsplash.com/photo-1504346466600-714572c4b726?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6754ded479383b7e3144de310fa88277&auto=format&fit=crop&w=750&q=80" class="rounded">
+                      <img src="https://images.unsplash.com/photo-1494028698538-2cd52a400b17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=83bf0e71786922a80c420c17b664a1f5&auto=format&fit=crop&w=334&q=80" class="rounded">
+      				</div>
+      				<div class="col-md-3 mr-auto">
+      				  <img src="https://images.unsplash.com/photo-1505784045224-1247b2b29cf3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ec2bdc92a9687b6af5089b335691830e&auto=format&fit=crop&w=750&q=80" class="rounded">  					
+      				  <img src="https://images.unsplash.com/photo-1524498250077-390f9e378fc0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=83079913579babb9d2c94a5941b2e69d&auto=format&fit=crop&w=751&q=80" class="rounded">
+  					  <img src="https://images.unsplash.com/photo-1506667527953-22eca67dd919?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6326214b7ce18d74dde5e88db4a12dd5&auto=format&fit=crop&w=750&q=80" class="rounded">
+      			    </div>
+      			</div>
+      		</div>
+          </div>
+
+        
+            </div>
+        </div>
   </div>
-</nav>
 
-<div class="banner position-relative text-center">
-  <div class="banner-text">
-    <h1 class="display-2 mb-5"><strong><span>Dev</span>Hunter</strong></h1>
-    <h3>Onde o <span>Dev</span> se desenvolve</h3>
-  </div>
-  <img class="img-fluid" src="/assets/banner.png">
-</div>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
 
-<div class="languages">
-  <div class="row container pt-5 m-auto text-center">
-
-    <div class="col-lg-4">
-      <img class="mb-3" width="100" height="100" src="/assets/ruby.png">
-      <h2>Ruby</h2>
-      <p>Ruby é uma linguagem de programação interpretada multiparadigma, de tipagem dinâmica e forte, com gerenciamento de memória automático. 
-        </p>
-      <p><a class="btn btn-red mb-5" href="#">Vagas de Ruby</a></p>
-    </div>
-
-    <div class="col-lg-4">
-      <img class="mb-3" width="100" height="100" src="/assets/js.png">
-
-      <h2>JavaScript</h2>
-      <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca 
-        e multi-paradigma. Muito popular por ser multipropósitos</p>
-      <p><a class="btn btn-yellow mb-5" href="#">Vagas de JavaScript</a></p>
-      </div>
-
-    <div class="col-lg-4">
-      <img class="mb-3" width="100" height="100" src="/assets/python.png">
-      <h2>Python</h2>
-      <p>Python é uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. </p>
-      <p><a class="btn btn-blue mb-5" href="#">Vagas de Python</a></p>
-    </div>
-    
-  </div>
-</div>
-
-<div class="coding">
-  <div class="row featurette container m-auto">
-    <div class="col-md-6 mr-auto">
-      <h2 class="featurette-heading"><strong>Não fique na zona de conforto</strong></h2>
-      <hr>
-      <br>
-      <p class="lead">Seja aprender novas linguagens, ou se aprimorar em alguma que já utiliza, sempre há espaço 
-                      para aprender coisas novas. </p>
-      <p class="lead">Queremos juntar desenvolvedores com sede de conhecimento e empresas que estejam dispostas
-                      a sempre capacitar e incentivar seus colaboradores. </p>
-    </div>
-    <div class="col-md-5">
-      <img class="featurette-image img-fluid mx-auto" src="/assets/coding.png">
-    </div>
-  </div>
-</div>
-
-<footer class="container py-5">
-  <div class="row">
-    <div class="col-6 col-md">
-      <h5>Back-end</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Ruby</a></li>
-        <li><a class="text-muted" href="#">JavaScript</a></li>
-        <li><a class="text-muted" href="#">Elixir</a></li>
-        <li><a class="text-muted" href="#">Clojure</a></li>
-      </ul>
-    </div>
-    <div class="col-6 col-md">
-      <h5>Front-end</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Angular</a></li>
-        <li><a class="text-muted" href="#">Node</a></li>
-        <li><a class="text-muted" href="#">React</a></li>
-        <li><a class="text-muted" href="#">Vue JS</a></li>
-      </ul>
-    </div>
-    <div class="col-6 col-md">
-      <h5>Headhunter</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Cadastre-se</a></li>
-        <li><a class="text-muted" href="#">Registre sua Empresa</a></li>
-        <li><a class="text-muted" href="#">Anuncie sua Vaga</a></li>
-        <li><a class="text-muted" href="#">Vantagens</a></li>
-      </ul>
-    </div>
-    <div class="col-6 col-md">
-      <h5>Sobre</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Sobre nós</a></li>
-        <li><a class="text-muted" href="#">Nosso Objetivo</a></li>
-        <li><a class="text-muted" href="#">Privacidade</a></li>
-        <li><a class="text-muted" href="#">Termos</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="col-12 col-md text-center">
-    <hr>
-    <small class="d-block mb-3 text-muted"><a href="https://github.com/andrecego">andre gomes</a> © 2019 </small>
-  </div>
-</footer>
-
-<style>
-body #yield{
-  margin-top: 0 !important;
-  margin: 0; 
-  padding: 0;
-  max-width: none;
-}
-</style>
-  
-
-  </body>
-</html>
+</body>
