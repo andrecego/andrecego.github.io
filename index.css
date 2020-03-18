@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Overpass+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Audiowide&display=swap");
+html body {
+  font-family: 'Overpass Mono', monospace;
+}
+
+body {
+  background-color: #000000;
+  color: #F6F7EB;
+}
+
+a {
+  color: #03a9f4;
+}
+
+hr {
+  border-bottom: 1px solid #F6F7EB;
+}
+
+.navbar-black {
+  background-color: #1e1e1e;
+}
+
+.text-green a {
+  color: #44BBA4;
+}
+
+@media (max-width: 768px) {
+  .display-2 {
+    font-size: 50px;
+  }
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-text h1 {
+  font-family: 'Audiowide', cursive;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0 20px 0 20px;
+}
+
+.banner-text h3 {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 20px 10px 20px;
+}
+
+.banner-text span {
+  color: #44BBA4;
+}
+
+.languages {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.coding {
+  background-color: white;
+  color: black;
+  padding: 40px;
+}
+
+footer small a:hover {
+  text-decoration: none;
+}
+
