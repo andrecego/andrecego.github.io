@@ -20,3 +20,9 @@
 .fa-linkedin:hover {
   color: darkblue;
 }
+
+.img-works {
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
+}
