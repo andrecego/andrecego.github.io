@@ -32,8 +32,8 @@
   font-size: large;
 }
 
-.work {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+.work:nth-child(n+2) {
+  border-top: 1px solid rgba(156, 39, 176, 0.4);
 }
 
 .work h3{
@@ -42,4 +42,22 @@
 
 .work p{
   color: rgb(153, 153, 153);
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+.btn-outline-success:hover {
+  background-color: #fff !important;
+}
+
+.hr-green {
+  border-top: none;
+}
+
+@media(min-width: 991px){ 
+  .hr-green {
+    border-top: 1px solid rgba(100, 160, 85, 0.2);
+  }
 }

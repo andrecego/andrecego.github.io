@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -31,8 +32,8 @@
 	                        <div class="name">
                             <h3 class="title">Andre Cesar Gomes</h3>
                             <h6>Desenvolvedor Web</h6>
-                              <a href="https://github.com/andrecego" class="btn btn-just-icon btn-link btn-dribbble"><i class="fa fa fa-github-alt"></i></a>
-                              <a href="https://www.linkedin.com/in/andrecego/" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-linkedin"></i></a>
+                              <a href="https://github.com/andrecego" class="btn btn-just-icon btn-link" target="_blank"><i class="fa fa fa-github-alt"></i></a>
+                              <a href="https://www.linkedin.com/in/andrecego/" class="btn btn-just-icon btn-link" target="_blank"><i class="fa fa-linkedin"></i></a>
 	                        </div>
 	                    </div>
     	            </div>
@@ -75,23 +76,51 @@
           <div class="tab-content tab-space">
 
             <div class="tab-pane active text-center gallery" id="skills">
-              <div class="row col-lg-8 mx-auto">
+              <div class="row col-lg-8 col-12 mx-auto">
 
-                  <div class="language col-md-4 col-6 mb-5">
+                  <div class="row col-12 order-first">
+
+                    <div class="language col-md-4 col-6 mb-5">
+                      <div class="language-image mx-auto">
+                        <img src="images/ruby.png" class="rounded" alt="Ruby" title="Ruby">
+                      </div>
+                    </div>
+
+                    <div class="language col-md-4 col-6 order-md-last mb-5">
+                      <div class="language-image mx-auto">
+                        <img src="images/rspec.png" class="rounded" alt="RSpec" title="RSpec">
+                      </div>
+                    </div>
+
+                    <div class="language col-md-4 col-12 mb-5">
+                      <div class="language-image mx-auto">
+                        <img src="images/rails.png" class="rounded" alt="Ruby on Rails" title="Ruby on Rails">
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="language col-md-3 col-6 mb-5">
                     <div class="language-image mx-auto">
-                      <img src="images/ruby.png" class="rounded" alt="Ruby" title="Ruby">
+                      <img src="images/git.png" class="rounded" alt="Git" title="Git">
                     </div>
                   </div>
 
-                  <div class="language col-md-4 col-6 mb-5">
+                  <div class="language col-md-3 col-6 mb-5">
                     <div class="language-image mx-auto">
-                      <img src="images/rails.png" class="rounded" alt="Ruby on Rails" title="Ruby on Rails">
+                      <img src="images/docker.png" class="rounded" alt="Docker" title="Docker">
                     </div>
                   </div>
 
-                  <div class="language col-md-4 col-6 mb-5">
+                  <div class="language col-md-3 col-6 mb-5">
                     <div class="language-image mx-auto">
-                      <img src="images/rspec.png" class="rounded" alt="RSpec" title="RSpec">
+                      <img src="images/postgresql.png" class="rounded" alt="PostgreSQL" title="PostgreSQL">
+                    </div>
+                  </div>
+
+                  <div class="language col-md-3 col-6 mb-5">
+                    <div class="language-image mx-auto">
+                      <img src="images/heroku.png" class="rounded" alt="Heroku" title="Heroku">
                     </div>
                   </div>
 
@@ -113,7 +142,7 @@
                     </div>
                   </div>
 
-                  <div class="language col-md-3 col-12 mb-5">
+                  <div class="language col-md-3 col-6 mb-5">
                     <div class="language-image mx-auto">
                       <img src="images/bootstrap.png" class="rounded" alt="Bootstrap 4" title="Bootstrap 4">
                     </div>
@@ -131,36 +160,35 @@
                       <img src="images/nickalive.jpg" alt="Nickalive Website" class="img-works">
                     </div>
                     <div class="col-md-6">
-                      <h3>Portfolio</h3>
-                      <p>Aplicação construida para exibição de um portfólio artístico
-                        de uma maneira responsiva e estilizada.
+                      <h3>Portfolio Artístico</h3>
+                      <p>Aplicação construída  para exibição de um portfólio artístico
+                        de uma maneira responsiva, estilizada e atualizada de forma dinâmica.
                       </p>
-                      <hr>
+                      <hr class="hr-green">
                       <p style="font-size: larger;">
-                        <a href="https://github.com/andrecego/nickalive">Código</a> | 
-                        <a href="https://nickalive.herokuapp.com">Website</a>
+                        <a href="https://github.com/andrecego/nickalive" class="btn btn-outline-success" role="button" target="_blank">Código</a>
+                        <a href="https://nickalive.herokuapp.com" class="btn btn-success" role="button" target="_blank">Website</a>
                       </p>
                     </div>
                   </div>
 
                   <div class="work col-12 row">
-                    <div class="col-md-6">
-                      <h3>Aplicação Banco de Dados</h3>
-                      <p>Contruída em Rails 6 com Webpack, PostgreSQL e Google Cloud Services. Conta com testes automatizados,
-                        pesquisa dinâmica com filtros AJAX e tabelas relacionais.
-                      </p>
-                      <hr>
-                      <p style="font-size: larger;">
-                        <a href="https://github.com/andrecego/SSA">Código</a> | 
-                        <a href="https://ssawakening.herokuapp.com">Website</a>
-                      </p>
+                    <div class="col-md-6 order-md-last">
+                      <img src="images/ssa.jpg" alt="SaintSeiya Website" class="img-works">
                     </div>
 
                     <div class="col-md-6">
-                      <img src="images/ssa.jpg" alt="SaintSeiya Website" class="img-works">
+                      <h3>Aplicação Banco de Dados</h3>
+                      <p>Construída  em Rails 6 com Webpack, PostgreSQL e Google Cloud Services. Conta com testes automatizados,
+                        pesquisas AJAX em tempo real com filtros, além de um simulador 360º de invocação.
+                      </p>
+                      <hr class="hr-green">
+                      <p style="font-size: larger;">
+                        <a href="https://github.com/andrecego/SSA" class="btn btn-outline-success" role="button" target="_blank">Código</a>
+                        <a href="https://ssawakening.herokuapp.com" class="btn btn-success" role="button" target="_blank">Website</a>
+                      </p>
                     </div>
                   </div>
-                </div>
 
                   <div class="work col-12 row">
                     <div class="col-md-6">
@@ -171,15 +199,15 @@
                       <p>Aplicação feita em 16 dias como projeto de conclusão de curso de Ruby on Rails com TDD, com 100% de cobertura de testes.<br>
                         É uma plataforma que permite empresas publicarem vagas e aplicantes buscarem oportunidades.
                       </p>
-                      <hr>
+                      <hr class="hr-green">
                       <p style="font-size: larger;">
-                        <a href="https://github.com/andrecego/DevHunter">Código</a> | 
-                        <a href="https://devhunter.herokuapp.com">Website</a>
+                        <a href="https://github.com/andrecego/DevHunter" class="btn btn-outline-success" role="button" target="_blank">Código</a>
+                        <a href="https://devhunter.herokuapp.com" class="btn btn-success" role="button" target="_blank">Website</a>
                       </p>
                     </div>
                   </div>
 
-                
+                </div>
               </div>
             </div>
 
